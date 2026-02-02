@@ -1,0 +1,47 @@
+* {
+    margin: 10px;
+    padding:10px
+}
+
+body {
+font-family: Garamond, Georgia, Verdana;
+background-color: rgb(84, 54, 54);
+color:antiquewhite;
+text-align: center;
+}
+/*Used chatgpt to help find out why the text was not aligning. Got bottom piece of code from the program.*/
+h2 {
+    font-size: 20px;
+    color:antiquewhite
+
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color:antiquewhite
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+    color:antiquewhite;
+     text-align: center;
+}
+
+.styled-paragraph {
+    color:antiquewhite;
+    font font-family: Garamond, Georgia, Verdana;
+    font-size: 20px;
+    text-align:left;
+    text-indent: 30px;
+    line-height: 1.5x;
+    margin: 10px 0;
+    margin-left: 300px
+}
+/*Used chatgpt to help make the paragraph text formatted like a traditional paragraph.*/
+
+img {
+  border: 50px solid black;
+}
+/*Used chatgpt to figure out how to add a black border. I tweaked it myself so it fit my vision*

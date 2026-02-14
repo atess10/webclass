@@ -1,0 +1,158 @@
+#opener {
+   background-image: url(monkeyimages/luxiconphoto-yellowstone.gif);
+       width: 100%;
+   height: 100vh;
+   background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 20px;
+margin-left: 275px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right: 50px;
+padding-left: 50px;
+background-color: rgb(179, 55, 55);
+width:500px;
+text-align: center;
+}
+
+#body {
+    height: 100vh;
+    width: 100%;
+    background-image:url(monkeyimages/pexels-johnny-song-2150145527-30988651.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.home {
+background-image: url(monkeyimages/thoughtubblemonkey.png);
+   height: 250px;
+    width: 250px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0x;
+    right:1400px;
+    top: 900px;
+    z-index: 997;
+}
+
+.homelink{
+    font-size: 15px;
+  height: 200px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0x;
+    right:1425px;
+    top: 1025px;
+    z-index: 9999;
+}
+
+
+
+.food {
+background-image: url(monkeyimages/thoughtubblemonkey.png);
+   height: 350px;
+    width: 350px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left:400px;
+    top: 850px;
+    z-index: 997;
+}
+
+.foodlink{
+    font-size: 35px;
+  height: 200px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0x;
+    right:1025px;
+    top: 1000px;
+    z-index: 9999;
+}
+
+.friends {
+background-image: url(monkeyimages/thoughtubblemonkey.png);
+   height: 400px;
+    width: 400px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left:1200px;
+    top: 850px;
+    z-index: 997;
+}
+
+.friendslink{
+    font-size: 30px;
+  height: 200px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0x;
+    right:225px;
+    top: 1025px;
+    z-index: 9999;
+}
+
+.sleepy {
+background-image: url(monkeyimages/thoughtubblemonkey.png);
+   height: 200px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left:1300px;
+    top: 1300px;
+    z-index: 997;
+}
+
+.sleepylink{
+    font-size: 15px;
+  height: 150px;
+    width: 150px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0x;
+    right:1300px;
+    top: 1410px;
+    z-index: 9999;
+}
+
+.bathing{
+    background-image: url(monkeyimages/thoughtubblemonkey.png);
+   height: 225px;
+    width: 225px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left:200px;
+    top: 1300px;
+    z-index: 997;
+}
+
+.bathinglink{
+    font-size: 1p6x;
+  height: 150px;
+    width: 150px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 0x;
+    right:215px;
+    top: 1395px;
+    z-index: 9999;
+}

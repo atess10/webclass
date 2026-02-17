@@ -1,0 +1,24 @@
+
+#bathingvideo {
+    background-image: url(pexels-johnny-song-2150145527-30988648.jpg);
+       width: 100%;
+   height: 100vh;
+   background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 
+{        
+     grid-area: 2 / 2 / 4 / 4; }
+
+iframe{
+    margin:-25px -25px -25px -25px;
+}

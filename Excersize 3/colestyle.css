@@ -1,0 +1,166 @@
+.road-rage-regular {
+  font-family: "Road Rage", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.londrina-sketch-regular {
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background: #d6cbab;
+}
+
+#Bar1 {
+    height: 75vh;
+ width: 100vh;
+ margin-top: 200px;
+ margin-left:100px;
+}
+#Bar2 {
+    height: 75vh;
+ width: 100vh;
+ margin-top: 200px;
+ margin-left:100px;
+}
+
+#Bar3 {
+     height: 75vh;
+ width: 100vh;
+ margin-top: 200px;
+ margin-left:100px;
+}
+
+#Bar4 {
+    height: 75vh;
+ width: 100vh;
+ margin-top: 200px;
+ margin-left:100px;
+}
+
+h1{
+    font-size: 400px;
+}
+
+.selfish{
+    padding: 3px
+}
+
+.selfish:hover{
+color:#d6cbab;
+transition:all 2s;
+display:inline-block
+
+}
+
+.reignite {
+    opacity: .5;
+    padding: 3px;
+    display: inline-block
+}
+
+.reignite:hover{
+color:red;
+opacity: 1;
+transition: all 3s;
+transform: scale(2,2)
+}
+
+.fall{
+    padding:3px;
+    display: inline-block
+}
+
+.fall:hover{
+opacity:0.5;
+transition: all 3s;
+transform: translate(0px,-50px)
+}
+
+.shake {
+    padding: 10px;
+    display: inline-block;
+    animation: shakeanimation 2s 0s infinite alternate-reverse
+}
+
+@keyframes shakeanimation {
+from {transform: translateX(0); transform: translateX(15px)}
+to {transform: translateX(15px);transform: translateX(-15px)}
+}
+
+.blow {
+padding: 10px;
+display: inline-block;
+animation: blowanimation 2s 0s infinite alternate-reverse
+}
+
+@keyframes blowanimation {
+from {transform: rotate(0deg); transform: rotate(360deg)}
+to {transform: rotate(360deg);transform: rotate(-360deg)}
+}
+
+.Coleyoung{
+    background-image: url(colepics/youngercole.jpg);
+     height: 300px;
+    width: 300px;
+    background-size: contain;
+    position: absolute;
+    bottom: -1000px;
+    right: 300px;
+    z-index: 997;
+       background-repeat: no-repeat;
+       animation: fadeanimation1 4s 0s infinite alternate-reverse;
+}
+
+
+.Coleolder{
+    background-image: url(colepics/oldercole.png);
+     height: 300px;
+    width: 300px;
+    background-size: contain;
+    position: absolute;
+    bottom: -1000px;
+    right: 10px;
+    z-index: 998;
+    background-repeat: no-repeat;
+    animation: fadeanimation2 4s 0s infinite alternate-reverse
+}
+
+
+@keyframes fadeanimation1 {
+    0% {
+    opacity: 100}
+    100% {
+    opacity: 0}
+}
+
+@keyframes fadeanimation2 {
+    100% {
+    opacity: 100}
+    0% {
+    opacity: 0}
+}
+
+
+@keyframes falloffanimation {
+ from {transform: translateY(0); transform: translateY(50px);Opacity:0}
+to {transform: translateY(50px);transform: translateY(0px);Opacity:100}
+
+}
+
+@keyframes falloffanimation2 {
+ from {transform: translateY(0); transform: translateY(-150px);Opacity:100}
+to {transform: translateY(-150px);transform: translateY(0);Opacity:0}
+
+}
+
+#Title{
+ animation: falloffanimation2 5s 0s infinite alternate-reverse
+}
+
+#Bar4{
+ 
+ animation: falloffanimation 5s 0s infinite alternate-reverse
+}

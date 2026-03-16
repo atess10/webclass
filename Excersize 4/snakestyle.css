@@ -1,0 +1,56 @@
+.container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.snake {
+    background-image:url(snakepics/snake3.png);
+    background-size: cover;
+    	width: 500px;
+    height: 500px;
+       animation: jitter .5s 1s infinite alternate-reverse
+}
+
+@media screen and (min-width: 700px){
+    .snake{
+    background-image:url(snakepics/snake2.png);
+    background-size: cover;
+    	width: 700px;
+    height: 700px;
+     animation: rotate 5s infinite;
+    }
+}
+
+@media screen and (min-width: 1000px){
+.snake{
+    background-image:url(snakepics/snake1.png);
+    background-size: cover;
+    	width: 1000px;
+    height: 1000px;
+    animation: none
+    }
+}
+/*Used chatgpt to help create a animation that had pauses between playing.*/
+@keyframes jitter { 
+  0%  { transform: translateX(0); }
+  5%  { transform: translateX(15px); }
+  10% { transform: translateX(-15px); }
+  15% { transform: translateX(15px); }
+  20% { transform: translateX(0); }  
+  100% { transform: translateX(0); } 
+}
+
+@keyframes rotate {
+    12.5% {transform: rotate(0deg);}
+    25% {transform: rotate(45deg);}
+    37.5% {transform: rotate(90deg);}
+    50% {transform: rotate(135deg);}
+     62.5% {transform: rotate(180deg);}
+    75% {transform: rotate(225deg);}
+    87.5% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}

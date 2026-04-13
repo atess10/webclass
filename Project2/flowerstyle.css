@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
 }
+/*Jitter animation made with help from chatgpt*/
+
+.lacquer-regular {
+  font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 body{
-    background-image:url(testimages/6ac08f3037ee38595859c78af5f20fa1.jpg);
+    background-image:url(flowerpictures/paperbg.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -14,42 +22,269 @@ body{
     position: relative
 }
 
+.containershop {
+    position: relative;
+    top: 124px;
+}
+
+
 .flower-patch{
- background-image:url(testimages/Golden_Flowers_overworld.webp);
+ background-image:url(flowerpictures/indexillus.png);
  background-image: cover;
- background-size: cover;
+ background-size: contain;
  background-repeat:no-repeat;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
+top: 250px;
 top: 250px;
 left:550px;
 position:absolute;
 }
 
-.flower-patch2{
-     background-image:url(testimages/Golden_Flowers_overworld.webp);
+.growth{
+ background-image:url(flowerpictures/page6illus.png);
  background-image: cover;
- background-size: cover;
+ background-size: contain;
  background-repeat:no-repeat;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
+top: 165px;
+left:550px;
+position:absolute;
+}
+
+.shovel{
+ background-image:url(flowerpictures/shovelillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.ticket{
+ background-image:url(flowerpictures/ticketillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.hook{
+ background-image:url(flowerpictures/project2illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.hammer{
+ background-image:url(flowerpictures/hammerillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.drill{
+ background-image:url(flowerpictures/drillillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.pickaxe{
+ background-image:url(flowerpictures/pickaxeillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+
+.gold{
+ background-image:url(flowerpictures/page8illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 1200px;
+    height: 800px;
+top: 50px;
+left:475px;
+position:absolute;
+}
+
+.fish1{
+ background-image:url(flowerpictures/fishoneillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.fish2{
+ background-image:url(flowerpictures/fish2illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.fish3{
+ background-image:url(flowerpictures/fishthreeillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 75px;
+left:550px;
+position:absolute;
+}
+
+.lake{
+ background-image:url(flowerpictures/page9illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 1200px;
+    height: 800px;
+top: 50px;
+left:475px;
+position:absolute;
+}
+
+.lake2{
+ background-image:url(flowerpictures/page9illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 1000px;
+    height: 700px;
+top: 10px;
+left:550px;
+position:absolute;
+}
+
+.lake3{
+ background-image:url(flowerpictures/page11illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 1000px;
+    height: 700px;
+top: 10px;
+left:550px;
+position:absolute;
+}
+
+.mine{
+ background-image:url(flowerpictures/page7illus.png);
+background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 1300px;
+    height: 900px;
+position:absolute;
+left: 475px;
+top: -150px;
+}
+
+
+.flower-patch2{
+     background-image:url(flowerpictures/indexillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 800px;
+    height: 600px;
+top: 250px;
 top: 250px;
 left:550px;
 position:absolute;
        animation: jitter .5s 1s infinite alternate-reverse
 }
-.redflower{
-    background-image:url(testimages/images.png);
+
+.flower-patch3{
+     background-image:url(flowerpictures/page3illus.png);
+ background-image: cover;
+ background-size: contain;
  background-repeat:no-repeat;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
+top: 250px;
+left:550px;
 position:absolute;
-top:350px;
+}
+
+.tunnel{
+     background-image:url(flowerpictures/page4illus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 900px;
+    height: 700px;
+top: 250px;
+left:550px;
+position:absolute;
+}
+
+.shop{
+     background-image:url(flowerpictures/shopillus.png);
+ background-image: cover;
+ background-size: contain;
+ background-repeat:no-repeat;
+    width: 1300px;
+    height: 900px;
+top: 20px;
+left:300px;
+position:absolute;
+}
+
+.redflower img{
+    position: absolute;
+  width: 100px;
+  height: auto;
+  top:450px;
 left:750px;
+z-index: 9999;
 }
 
 p {
     text-align: center;
+    font-size: 3.2vh
 }
 .Textp1{
     top:700px;
@@ -75,54 +310,151 @@ top:800px;
   100% { transform: translateX(0); } 
 }
 
-.firstitem{
-position:absolute;
-top:550px;
-left:450px;
+.firstitem img{
+position: absolute;
+  width: 150px;
+  height: auto;
+  top:325px;
+left:800px;
+z-index: 9999;
+}
+
+.firstitem:hover img{
+animation: tilt 5s 0s infinite alternate;
 }
 
 .seconditem img{
-position:absolute;
-top:350px;
-left:450px;
+position: absolute;
   width: 200px;
   height: auto;
+  top:320px;
+left:900px;
+z-index: 9999;
 }
 
-.Keyitem{
-position:absolute;
-top:550px;
-left:700px;
-  width: 700px;
+.seconditem:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+.Keyitem img{
+position: absolute;
+  width: 150px;
   height: auto;
+  top:325px;
+left:700px;
+z-index: 9999;
 }
 
-.thirditem{
-position:absolute;
-top:550px;
-left:950px;
+.Keyitem:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+.thirditem:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+.thirditem img{
+position: absolute;
+  width: 150px;
+  height: auto;
+  top:325px;
+left:600px;
+z-index: 9999;
 }
 
 .firstitem2 img{
- position:absolute;
-top:550px;
-left:450px;   
+position: absolute;
+  width: 130px;
+  height: auto;
+  top:475px;
+left:500px;
+z-index: 9999;  
+}
+
+.firstitem2:hover img{
+animation: tilt 5s 0s infinite alternate;
 }
 
 .Keyitem2 img{
-    position:absolute;
-top:350px;
-left:250px;
+position: absolute;
+  width: 130px;
+  height: auto;
+  top:455px;
+left:575px;
+z-index: 9999;  
+}
+
+.Keyitem2:hover img{
+animation: tilt 5s 0s infinite alternate;
 }
 
 .seconditem2 img{
-    position:absolute;
-top:350px;
-left:1200px;
+position: absolute;
+  width: 130px;
+  height: auto;
+  top:475px;
+left:650px;
+z-index: 9999;  
+}
+
+.seconditem2:hover img{
+animation: tilt 5s 0s infinite alternate;
 }
 
 .thirditem2 img{
-    position:absolute;
-top:550px;
-left:860px;
+position: absolute;
+  width: 130px;
+  height: auto;
+  top:400px;
+left:700px;
+z-index: 9999;  
 }
+
+.thirditem2:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+.Keyitem3:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+.redflower:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+.Keyitem3 img{
+position: absolute;
+  width: 130px;
+  height: auto;
+  top:575px;
+left:600px;
+z-index: 9999;
+}
+
+.firstitem3:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+.firstitem3 img{ position: absolute;
+  width: 130px;
+  height: auto;
+  top:600px;
+left:725px;
+z-index: 9999;}
+
+.seconditem3 img{  position: absolute;
+  width: 130px;
+  height: auto;
+  top:600px;
+left:475px;
+z-index: 9999;}
+
+.seconditem3:hover img{
+animation: tilt 5s 0s infinite alternate;
+}
+
+@keyframes tilt {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(200deg);}
+}
+
+
